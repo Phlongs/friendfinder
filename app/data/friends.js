@@ -1,7 +1,7 @@
-var friendsArray = [
+var friends = [
   {
     "name":"Ahmed",
-    "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+    "photo":"http://www.chinadaily.com.cn/world/images/attachement/jpg/site1/20120806/d4bed9d534551189e67329.jpg",
     "scores":[
         5,
         1,
@@ -17,4 +17,4 @@ var friendsArray = [
   }
 ];
 // Note how we export the array. This makes it accessible to other files using require.
-module.exports = friendsArray;
+module.exports = friends;
